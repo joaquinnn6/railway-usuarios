@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan; // <-- Faltaba este
 public class UsuariosApplication {
     public static void main(String[] args) {
         // ⚠️ Configura el wallet ANTES de que Spring arranque
-        Path walletPath = Paths.get("src/main/resources/wallet");
+        Path walletPath = Paths.get("wallet");
         System.setProperty("oracle.net.tns_admin", walletPath.toAbsolutePath().toString());
         System.out.println("[MAIN] TNS_ADMIN configurado en: " + walletPath.toAbsolutePath());
 
