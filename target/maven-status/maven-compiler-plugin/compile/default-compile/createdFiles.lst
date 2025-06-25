@@ -1,6 +1,6 @@
-com\usuarios\Usuarios\UsuariosApplication.class
 com\usuarios\Usuarios\Controller\UsuarioController.class
 com\usuarios\Usuarios\Service\UsuarioService.class
-com\usuarios\Usuarios\Service\UsuarioServiceImp.class
 com\usuarios\Usuarios\Model\Usuario.class
 com\usuarios\Usuarios\Repostiry\UsuarioRepository.class
+com\usuarios\Usuarios\UsuariosApplication.class
+com\usuarios\Usuarios\Service\UsuarioServiceImp.class
