@@ -16,6 +16,6 @@ public class UsuariosApplication {
         System.setProperty("oracle.net.tns_admin", walletPath.toAbsolutePath().toString());
         System.out.println("[MAIN] TNS_ADMIN configurado en: " + walletPath.toAbsolutePath());
 
-        SpringApplication.run(UsuariosApplication.class, args); // <-- Corrige el nombre de la clase aquí
+        SpringApplication.run(UsuariosApplication.class, args);
     }
 }
